@@ -23,7 +23,7 @@ img{
 #contador{
     position: absolute;
     text-align: center;
-    font-size:2rem;
+    font-size:1.8rem;
     top:55%;
     left:26%;
     transform: rotate(-2deg);
