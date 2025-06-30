@@ -14,5 +14,10 @@ const timer = ()=>{
     return `Faltam ${diff+1} dias` ;
 }
 
+if(tiner() > 0){
+    contador.innerText = timer();
+}
+else{
+    contador.innerText= "Volto 15/07";
+}
 
-contador.innerText = timer();
