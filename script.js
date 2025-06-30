@@ -14,7 +14,7 @@ const timer = ()=>{
     return `Faltam ${diff+1} dias` ;
 }
 
-if(tiner() > 0){
+if(timer() > 0){
     contador.innerText = timer();
 }
 else{
